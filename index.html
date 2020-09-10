@@ -6,14 +6,34 @@
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<!-- My styles -->
+	<!-- My styles and script -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/javascript.js" ></script>
 </head>
 <body>
 	<div class="row">
 		<div class="col-sm-1"></div>
 		<div class="col-sm-10 central-col">
-			
+			<form name="verse" method="GET" action="">
+				<div class="form-group">
+					<label for="var1">var1</label>
+    				<input type="text" class="form-control" id="var1" placeholder="Enter var1">
+					<label for="var2">var2</label>
+    				<input type="text" class="form-control" id="var2" placeholder="Enter var2">
+					<label for="var3">var3</label>
+    				<input type="text" class="form-control" id="var3" placeholder="Enter var3">
+					<label for="var4">var4</label>
+    				<input type="text" class="form-control" id="var4" placeholder="Enter var4">
+					<label for="var5">var5</label>
+    				<input type="text" class="form-control" id="var5" placeholder="Enter var5">
+					<label for="var6">var6</label>
+    				<input type="text" class="form-control" id="var6" placeholder="Enter var6">
+					<label for="speach">speach</label>
+    				<input type="text" class="form-control" id="speach" placeholder="Enter speach">
+				</div>
+				<button class="btn btn-primary create-text">Создать текст</button>
+				<button type="submit" class="btn btn-primary replace-variables">Заменить переменные</button>
+			</form>
 		</div>
 		<div class="col-sm-1"></div>
 	</div>
