@@ -1,4 +1,4 @@
-.row-verse {
+body #row-verse {
 	margin: 0;
 }
 
@@ -8,7 +8,7 @@
 	padding: 30px;
 }
 
-.form-verse {
+.form-group {
 	padding: 15px;
 	border: 3px solid #737373bf;
 }
@@ -18,4 +18,9 @@
 	padding: 15px;
 	border: 3px solid #737373bf;
 	font-size: 20px;
+}
+
+#create-text,
+#replace-variables {
+	margin-top: 15px;
 }

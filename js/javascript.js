@@ -10,7 +10,6 @@ const btnCreate = $('#create-text');
 const btnReplace = $('#replace-variables');
 const textNode = $('.text-verse');
 
-
 const startObj = {
   "text":[
     "Жили-были {var1} да {var2}",
@@ -25,7 +24,8 @@ const startObj = {
 
 btnCreate.click(function() {
   textNode.html(startObj.text);
-})
+  console.log("Проверка работы кнопки #create-text");
+});
 
 btnReplace.click(function() {
   const var1 = var1Node.val();
@@ -51,6 +51,8 @@ btnReplace.click(function() {
   
     
   textNode.html(newObj.text);
+
+  console.log("Проверка работы кнопки #replace-variables");
 })
 
-console.log("Проверка")
+console.log("Проверка подключения js скрипта");
