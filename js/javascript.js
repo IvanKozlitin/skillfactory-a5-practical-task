@@ -25,7 +25,6 @@ $(document).ready(function() {
 
   btnCreate.click(function() {
     textNode.html(startObj.text);
-    console.log("Проверка работы кнопки #create-text");
   });
 
   btnReplace.click(function() {
@@ -52,9 +51,5 @@ $(document).ready(function() {
     
       
     textNode.html(newObj.text);
-
-    console.log("Проверка работы кнопки #replace-variables");
   })
-
-  console.log("Проверка подключения js скрипта");
 });
